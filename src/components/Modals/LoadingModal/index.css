@@ -1,0 +1,15 @@
+.loading-modal .content {
+    width: calc(100vw - 30px);
+    max-width: 450px;
+    padding: 30px 20px;
+    background-color: transparent;
+}
+
+.loading-modal .MuiBackdrop-root {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.loading-modal .MuiPaper-root {
+    background-color: transparent;
+    box-shadow: none;
+}

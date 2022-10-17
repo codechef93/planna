@@ -1,0 +1,130 @@
+.pro-calendar {
+    /*width: 434px !important;*/
+    /*height: 496px !important;*/
+    width: 100% !important ;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: none !important;
+}
+
+.pro-calendar .react-calendar__navigation__label{
+    display: none;
+}
+
+.pro-calendar .react-calendar__month-view__weekdays {
+    text-transform: none;
+    justify-content: space-around;
+}
+
+
+.pro-calendar .react-calendar__month-view__weekdays__weekday {
+    font-family: SemplicitaPro-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+    text-align: center;
+    max-width: 68px;
+}
+
+.pro-calendar .react-calendar__month-view__days {
+    justify-content: space-around;
+}
+
+.pro-calendar .react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none !important;
+}
+
+.pro-calendar .react-calendar__month-view__days__day {
+    border-width: 6px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none !important;
+    /*width: 62px;*/
+    /*height: 62px;*/
+    /*max-width: 68px;*/
+    font-family: SemplicitaPro-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-gray1);
+    text-align: center;
+    aspect-ratio: 1 / 1;
+}
+
+.pro-calendar .react-calendar__tile--active {
+    background: var(--color-primary) !important;
+    color: white !important;
+}
+
+.pro-calendar .react-calendar__tile--now {
+    background: #3AABB060;
+    color: white;
+}
+
+.pro-calendar .react-calendar__tile--now:enabled:hover, .pro-calendar .react-calendar__tile--now:enabled:focus {
+    background: #3AABB060;
+}
+
+.pro-calendar .react-calendar__month-view__days__day--neighboringMonth {
+    color: var(--color-gray3);
+}
+
+.pro-calendar .react-calendar__navigation button {
+    width: 50px;
+    height: 50px;
+}
+
+.pro-calendar-wrap .cur-month {
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-calendar-wrap .today-btn {
+    position: absolute;
+    right: 120px;
+    top: 0px;
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-primary);
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .pro-calendar .react-calendar__navigation button {
+        width: 36px;
+        height: 50px;
+    }
+
+    .pro-calendar-wrap .today-btn {
+        right: 90px;
+    }
+}
+

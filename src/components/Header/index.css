@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 32px 8px 32px;
+  height: 80px;
+  border-bottom: 1px solid var(--color-gray4);
+}
+
+.header-bottom-border {
+  box-shadow: rgb(0 0 0 / 45%) 0px 0px 3px 0px;
+}
+
+.app-sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1100;
+  width: 100%;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-gray6);
+}
+
+.app-home-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1100;
+  width: 100%;
+}
+
+.header .left-side {
+  z-index: 1;
+}
+
+.header .drawerBtn {
+  margin-right: 20px;
+}
+
+.header .drawerBtn svg {
+  transform: rotateZ(180deg);
+}
+
+.header > div.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.right-side   button.signin-btn {
+  font-size: 16px !important;
+  line-height: 25px;
+  font-family: SemplicitaPro-Semibold;
+  color: var(--color-text);
+  padding: 4px 22px;
+  white-space: nowrap;
+  margin-right: 12px;
+}
+
+.right-side  button.pro-register-btn {
+  font-size: 16px !important;
+  line-height: 25px;
+  font-family: SemplicitaPro-Semibold;
+  color: var(--color-text);
+  padding: 4px 22px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: var(--color-text);
+  white-space: nowrap;
+}
+
+.header img.logo {
+  display: none;
+}
+
+.header .drawerBtn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header img.logo {
+    display: inherit;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  .header .signin-view {
+    display: none;
+  }
+
+  .header .drawerBtn {
+    display: inherit;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 30px;
+    min-width: 30px;
+  }
+
+  .header {
+    padding: 18px 16px 8px 16px;
+  }
+}

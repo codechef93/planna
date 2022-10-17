@@ -1,0 +1,146 @@
+.booking-info-view {
+    width: 100%;
+}
+
+.booking-info-view .title-view {
+    align-items: flex-start;
+    font-family: Lora-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #2E3F57;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.booking-info-view .title-view h5 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.booking-info-view .title-view img{
+    width: 52px;
+    object-fit: contain;
+}
+
+.booking-info-view .services {
+
+}
+
+.booking-info-view .services p{
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2E3F57;
+}
+
+.booking-info-view .services .items {
+    display: flex;
+}
+
+.booking-info-view .services .service-item-active {
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-top: 6px;
+    margin-right: 6px;
+    background-color: var(--color-primary);
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+}
+
+.booking-info-view .services .service-item-inactive {
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-top: 6px;
+    margin-right: 6px;
+    background-color: var(--color-gray4);
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--color-gray1);
+}
+
+.booking-info-view .service-detail h5 {
+    font-size: 20px;
+    line-height: 31px;
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.booking-info-view .service-detail .pro img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.booking-info-view .service-detail .pro h6 {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.booking-info-view .service-detail .pro p {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    color: var(--color-gray1);
+    margin: 0;
+    margin-top: 4px;
+}
+
+.booking-info-view .service-detail p.desc {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.booking-info-view .service-detail .discount_label,
+.booking-info-view .service-detail .discount_value
+{
+    font-size: 14px;
+    line-height: 21px;
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.booking-info-view .service-detail .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: var(--color-text);
+}
+
+.booking-info-view .service-detail .package-highlighted {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: SemplicitaPro-Semibold;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+@media (max-width: 576px) {
+    .booking-info-view .service-detail h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+

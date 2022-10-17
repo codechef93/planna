@@ -1,0 +1,91 @@
+.payment-add-view {
+    width: 100%;
+    height: 100%;
+}
+
+.payment-add-view .head-nav .round-icon-btn {
+    width: 36px;
+    height: 36px;
+    min-height: 36px;
+    min-width: 36px;
+    border-radius: 8px;
+    margin-right: 18px;
+}
+
+.payment-add-view h5 {
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--color-text);
+    font-family: Lora-Bold;
+    width: 100%;
+    margin: 0;
+}
+
+.payment-add-view .bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.payment-add-view .cancel-btn {
+    width: 225px;
+    max-width: calc(50% - 10px);
+    height: 44px;
+    font-size: 14px !important;
+    font-family: SemplicitaPro-Medium !important;
+}
+
+.payment-add-view .continue-btn {
+    width: 225px;
+    max-width: calc(50% - 10px);
+    height: 44px;
+    font-size: 14px !important;
+    font-family: SemplicitaPro-Medium !important;
+}
+
+.payment-add-view .subject-title {
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+
+.payment-add-view .row {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.payment-add-view .row .col-item {
+    width: 50%;
+    padding: 10px 15px;
+}
+
+.payment-add-view p.desc {
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-primary);
+}
+
+.payment-add-view .same-homeaddress .MuiFormControlLabel-label {
+    font-family: SemplicitaPro-Medium;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-text);
+}
+
+@media (max-width: 992px) {
+    .payment-add-view .row .col-item {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

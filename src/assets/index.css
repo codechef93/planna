@@ -1,0 +1,310 @@
+@font-face {
+  font-family: 'Lora-Regular';
+  src: url(../assets/fonts/Lora-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora-Italic';
+  src: url(../assets/fonts/Lora-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora-Medium';
+  src: url(../assets/fonts/Lora-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora-MediumItalic';
+  src: url(../assets/fonts/Lora-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora-Semibold';
+  src: url(../assets/fonts/Lora-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora-SemiboldItalic';
+  src: url(../assets/fonts/Lora-SemiBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora-Bold';
+  src: url(../assets/fonts/Lora-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora-BoldItalic';
+  src: url(../assets/fonts/Lora-BoldItalic.ttf) format('truetype');
+}
+
+/*    */
+@font-face {
+  font-family: 'SemplicitaPro-Italic';
+  src: url(../assets/fonts/SemplicitaPro-Italic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-Light';
+  src: url(../assets/fonts/SemplicitaPro-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-LtIt';
+  src: url(../assets/fonts/SemplicitaPro-LtIt.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-Medium';
+  src: url(../assets/fonts/SemplicitaPro-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-MedIt';
+  src: url(../assets/fonts/SemplicitaPro-MedIt.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-Semibold';
+  src: url(../assets/fonts/SemplicitaPro-Semibold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-SemibdIt';
+  src: url(../assets/fonts/SemplicitaPro-SemibdIt.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-Bold';
+  src: url(../assets/fonts/SemplicitaPro-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro-BoldItalic';
+  src: url(../assets/fonts/SemplicitaPro-BoldItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SemplicitaPro';
+  src: url(../assets/fonts/SemplicitaPro.otf) format('opentype');
+}
+
+
+:root {
+  --color-transparent: 'transparent';
+  --color-background: #ffffff;
+  --color-darkerBackground: #ededed;
+  --color-greyBackground: #f5f5f5;
+
+  --color-text: #2E3F57;
+  --color-placeholder: #BFC0C4;
+  --color-primary: #3AABB0;
+  --color-secondary: #81E2E6;
+  --color-red1: #F1364E;
+
+  --color-anger: #f53d3d;
+  --color-light: #f4f4f4;
+  --color-dark: #222;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-red: #f00;
+
+  --color-gray1: #6C6C6C;
+  --color-gray2: #595E66;
+  --color-gray3: #BFC0C4;
+  --color-gray4: #EFEFEF;
+  --color-gray5: #EDF9FA;
+}
+
+
+iframe {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100% !important;
+  overflow-y: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex_1 {
+  flex: 1;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.pos_relative {
+  position: relative;
+}
+
+.row_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+}
+
+.align-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-col-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.align-row-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.align-row-start-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.align-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.btn-style {
+  cursor: pointer;
+}
+
+.MuiDialog-root {
+  z-index: 1000 !important;
+}
+
+.react-confirm-alert-body {
+  font-size: 18px;
+  font-family: SemplicitaPro-Semibold, serif !important;
+  width: 400px !important;
+  max-width: calc(100vw - 40px) !important;
+  text-align: center !important;
+  color: var(--color-text) !important;
+  padding: 16px 25px !important;
+}
+
+.react-confirm-alert-body > h1 {
+  font-size: 18px;
+}
+
+.react-confirm-alert-overlay {
+  z-index: 100000;
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.react-confirm-alert-button-group > button {
+  background: var(--color-primary) !important;
+  font-family: SemplicitaPro-Semibold, serif !important;
+}
+
+.react-confirm-alert-button-group {
+  justify-content: center !important;
+}
+
+.react-confirm-alert-button-group > button.error-ok-btn {
+  background: white !important;
+  color: #23cbd8 !important;
+}
+
+.error-ok-btn {
+  font-size: 14px !important;
+}
+
+.hide-md {
+  display: inherit;
+}
+
+.hide-sm {
+  display: inherit !important;
+}
+
+.sm-100 {
+  width: inherit;
+}
+
+.sm-flex-100 {
+  flex: 1;
+}
+
+.max-lg {
+  max-width: 1600px;
+}
+
+
+
+@media (max-width: 768px) {
+  .hide-md {
+    display: none !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hide-sm {
+    display: none;
+  }
+  .sm-100 {
+    width: 100%;
+  }
+  .sm-flex-100 {
+    flex: none;
+    width: 100%;
+  }
+}

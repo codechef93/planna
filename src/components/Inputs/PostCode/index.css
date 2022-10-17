@@ -1,0 +1,41 @@
+.post-code-check {
+
+}
+
+.post-code-check .post-code-input input {
+    flex: 1;
+    outline: none;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-text);
+    font-family: SemplicitaPro-Semibold;
+    border: none;
+}
+
+.post-code-check .post-code-input .check-btn {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-primary);
+    font-family: SemplicitaPro-Semibold;
+}
+
+.post-code-check .post-code-input .remove-btn {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-red1);
+    font-family: SemplicitaPro-Semibold;
+}
+
+.post-code-check .post-code-input .code-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-text);
+    font-family: SemplicitaPro-Semibold;
+}
+
+.post-code-check .desc{
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-gray1);
+    font-family: SemplicitaPro-Medium;
+}

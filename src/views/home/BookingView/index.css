@@ -1,0 +1,104 @@
+.booking-view {
+    width: 100%;
+    flex: 1;
+}
+
+.view-home .calendar-view .row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.booking-view .bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.booking-view .continue-btn {
+    width: 225px;
+    height: 44px;
+    font-size: 14px !important;
+    font-family: SemplicitaPro-Medium !important;
+}
+
+.booking-view .date-picker-view {
+    border-right: 2px solid #EFEFEF;
+    width: 64%;
+}
+
+.booking-view .timeslots {
+    width: 36%;
+    justify-content: flex-start;
+}
+
+.booking-view .timeslots p.date {
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-text);
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+
+.booking-view .timeslots .list {
+    height: 360px;
+    overflow-y: auto;
+}
+
+.booking-view .cancel-btn {
+    width: 225px;
+    max-width: calc(50% - 10px);
+    height: 44px;
+    font-size: 14px !important;
+    font-family: SemplicitaPro-Medium !important;
+}
+
+.booking-view .save-btn {
+    width: 225px;
+    max-width: calc(50% - 10px);
+    height: 44px;
+    font-size: 14px !important;
+    font-family: SemplicitaPro-Medium !important;
+}
+
+
+@media (max-width: 992px) {
+    .booking-view .date-picker-view {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #EFEFEF;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        padding-right: 0px !important;
+    }
+
+    .booking-view .timeslots {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .booking-view .date-picker-view {
+        padding-bottom: 16px;
+    }
+    .booking-view .timeslots .list {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .booking-view .timeslots p.date {
+        font-size: 14px;
+        padding-left: 0;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+
+    .booking-view .continue-btn {
+        width: 100%;
+    }
+}

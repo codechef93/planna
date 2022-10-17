@@ -1,0 +1,53 @@
+.common_tooltip a {
+    font-size: 16px;
+    font-family: Yellix-Medium, serif;
+    color: var(--color-gray7);
+    text-decoration-line: underline;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.common_tooltip_body .react-tooltip-lite {
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 16px !important;
+    max-width: 320px !important;
+    opacity: 1 !important;
+    border-radius: 20px !important;
+    width: inherit !important;
+}
+
+
+.common_tooltip_body .react-tooltip-lite h3 {
+    font-size: 16px;
+    font-family: Yellix-Bold, serif;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.common_tooltip_body .react-tooltip-lite p {
+    font-size: 15px;
+    font-family: Yellix-Medium, serif;
+    color: var(--color-text);
+    margin: 0;
+    padding-left: 4px;
+}
+
+.common_tooltip_body .react-tooltip-lite .dismiss-btn {
+    font-size: 14px;
+    font-family: Yellix-Medium, serif;
+    color: var(--color-red1);
+    margin-bottom: 0;
+    margin-top: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.common_tooltip_body .react-tooltip-lite .row-item {
+    align-items: flex-start;
+    margin-top: 16px;
+}
+
+.common_tooltip_body svg {
+    transform: rotate(180deg);
+}

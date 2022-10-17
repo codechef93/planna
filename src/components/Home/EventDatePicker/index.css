@@ -1,0 +1,83 @@
+.event-date-picker {
+
+}
+
+.event-date-picker h5 {
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--color-text);
+    font-family: Lora-Bold;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.event-date-picker .week-month-tab {
+    height: 32px;
+}
+
+.event-date-picker .week-month-tab .tab-btn {
+    font-size: 13px !important;
+    font-family: SemplicitaPro-Medium !important;
+}
+
+.event-date-picker .week-month-tab .tab-btn-0 {
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+.event-date-picker .week-month-tab .tab-btn-1 {
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+.event-date-picker .week-month-tab .tab-btn-active {
+    color: white !important;
+    background-color: var(--color-primary) !important;
+
+}
+
+.event-date-picker .week-month-tab .tab-btn-inactive {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color-gray4);
+    color: var(--color-gray3) !important;
+    background-color: white !important;
+}
+
+.event-date-picker .week-month-tab {
+    display: none;
+}
+
+.event-date-picker .hide-md-question-mark {
+    display: inline-block !important;
+}
+
+.event-date-picker .show-md-question-mark {
+    display: none !important;
+}
+
+.show-md {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .event-date-picker h5 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .event-date-picker .week-month-tab {
+        display: inherit;
+    }
+
+    .show-md {
+        display: inherit;
+    }
+
+    .event-date-picker .hide-md-question-mark {
+        display: none !important;
+    }
+
+    .event-date-picker .show-md-question-mark {
+        display: inline-block !important;
+    }
+}

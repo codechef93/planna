@@ -1,0 +1,65 @@
+.weekly-day-picker {
+
+}
+
+.weekly-day-picker .header-view {
+
+}
+.weekly-day-picker .header-view .cur-date{
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-text);
+}
+
+.weekly-day-picker .header-view .today-btn {
+    font-family: SemplicitaPro-Semibold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color-primary);
+}
+
+.weekly-day-picker .header-view .nav-btn button {
+    width: 40px;
+    min-width: 40px;
+}
+
+.weekly-day-picker .day-btn-wrap {
+    padding-left: 2px;
+    padding-right: 2px;
+    flex:1;
+}
+
+.weekly-day-picker .day-btn {
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.weekly-day-picker .day-btn .disabled-day,
+.weekly-day-picker .day-btn .active-day,
+.weekly-day-picker .day-btn .inactive-day,
+.weekly-day-picker .day-btn .disabled-date,
+.weekly-day-picker .day-btn .active-date,
+.weekly-day-picker .day-btn .inactive-date
+{
+    font-size: 14px;
+    font-family: SemplicitaPro-Semibold;
+    line-height: 21px;
+    text-align: center;
+    color: var(--color-gray3);
+}
+
+.weekly-day-picker .day-btn .active-day,
+.weekly-day-picker .day-btn .active-date {
+    color: white;
+}
+
+.weekly-day-picker .day-btn .inactive-day,
+.weekly-day-picker .day-btn .inactive-date {
+    color: var(--color-gray1);
+}

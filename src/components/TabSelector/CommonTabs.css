@@ -1,0 +1,28 @@
+.common-tabs {
+  height: 54px;
+}
+
+.common-tabs .tab-btn {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-text) !important;
+  font-size: 16px !important;
+  font-family: Yellix-SemiBold, serif !important;
+  border-radius: 12px !important;
+  text-transform: none !important;
+  box-shadow: none !important;
+}
+
+.common-tabs .tab-btn-active {
+  flex: 1;
+  padding: 0 !important;
+  background-color: #d9f3f5 !important;
+  color: var(--color-primary);
+}
+
+.common-tabs .tab-btn-inactive {
+  flex: 1;
+  padding: 0 !important;
+  background-color: white !important;
+  color: white;
+}

@@ -1,0 +1,763 @@
+.modal {
+  max-width: calc(100vw - 32px) !important;
+}
+
+.vendor-closed-modal {
+  width: 676px;
+}
+
+.vendor-closed-modal .MuiDialog-paper {
+  border-radius: 16px;
+}
+
+.vendor-closed-modal .content {
+  background-color: white;
+  border-radius: 16px;
+  padding: 32px 40px;
+}
+
+.vendor-closed-modal .content h1 {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.vendor-closed-modal .content h2 {
+  font-size: 18px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.vendor-closed-modal .actions .explore {
+  width: 100%;
+  background-color: var(--color-gray6) !important;
+  color: var(--color-gray7);
+}
+
+.vendor-closed-modal .actions .see_menu {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+
+/* remove cart item confirm modal */
+
+.remove-cart-modal {
+  width: 676px;
+}
+
+.remove-cart-modal .MuiDialog-paper {
+  border-radius: 16px;
+}
+
+.remove-cart-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+  padding-bottom: 16px;
+}
+
+.remove-cart-modal .content h2 {
+  font-size: 18px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.remove-cart-modal .actions .cancel-btn {
+  width: 100%;
+  background-color: white !important;
+  color: var(--color-gray7);
+  margin-top: 12px;
+}
+
+.remove-cart-modal .actions .sure-btn {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+
+/* end */
+
+/* Restaurant Tip Modal*/
+.resturant-tip-modal {
+  width: 676px;
+}
+
+.resturant-tip-modal .MuiDialog-paper {
+  border-radius: 16px;
+}
+
+.resturant-tip-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+}
+.resturant-tip-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.resturant-tip-modal .content h1 {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.resturant-tip-modal .content .tip-text {
+  overflow-y: auto;
+}
+
+.resturant-tip-modal .content .tip-text p {
+  font-size: 16px;
+  font-family: Yellix-Medium, serif;
+  color: #6a6a6a;
+  margin-top: 0;
+}
+
+/* end */
+
+/* Split Bill Modal */
+
+.split-bill-modal {
+  width: 676px;
+}
+
+.split-bill-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 600px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.split-bill-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+}
+.split-bill-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.split-bill-modal .content h1 {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.split-bill-modal .content .list-btn {
+  height: 60px;
+  border-radius: 12px;
+  background-color: var(--color-gray8);
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px 20px;
+}
+
+.split-bill-modal .content .list-btn p {
+  flex: 1;
+  font-size: 16px;
+  font-family: Yellix-SemiBold, serif;
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+}
+
+/* end */
+
+/* Order Failed Modal */
+.order-failed-modal {
+  width: 676px;
+}
+
+.order-failed-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 600px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.order-failed-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+}
+
+.order-failed-modal .content h2 {
+  font-size: 18px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.order-failed-modal .actions .save-btn {
+  width: 100%;
+  background-color: var(--color-gray6) !important;
+  color: var(--color-gray7);
+  margin-top: 12px;
+}
+
+.order-failed-modal .actions .try-btn {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+/* end */
+
+/* Allergies Modal*/
+.allergy-modal {
+  width: 676px;
+}
+
+.allergy-modal .MuiDialog-paper {
+  border-radius: 16px;
+}
+
+.allergy-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+}
+.allergy-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+.allergy-modal .content img.call-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.allergy-modal .content img.bg {
+  width: 370px;
+  height: 173px;
+  object-fit: contain;
+  margin-top: 56px;
+}
+
+.allergy-modal .content h1 {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.allergy-modal .content .tip-text {
+  overflow-y: auto;
+}
+
+.allergy-modal .content .tip-text p {
+  font-size: 16px;
+  font-family: Yellix-Medium, serif;
+  color: #6a6a6a;
+  margin-top: 0;
+}
+
+/* end */
+
+/* Allergies Modal*/
+.restricted-item-modal {
+  width: 676px;
+}
+
+.restricted-item-modal .MuiDialog-paper {
+  border-radius: 16px;
+}
+
+.restricted-item-modal .content {
+  background-color: white;
+  padding: 26px 24px;
+}
+.restricted-item-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+.restricted-item-modal .content img.call-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.restricted-item-modal .content img.bg {
+  width: 225px;
+  height: 195px;
+  object-fit: contain;
+  margin-top: 56px;
+}
+
+.restricted-item-modal .content h1 {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.restricted-item-modal .content h3 {
+  font-size: 18px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin-top: 12px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.restricted-item-modal .content .tip-text {
+  overflow-y: auto;
+}
+
+.restricted-item-modal-modal .content .tip-text p {
+  font-size: 16px;
+  font-family: Yellix-Medium, serif;
+  color: #6a6a6a;
+  margin-top: 0;
+}
+
+/* end */
+
+/* delivery schedule modal */
+.delivery-schedule-modal {
+  width: 676px;
+}
+
+.delivery-schedule-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 600px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.delivery-schedule-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+}
+
+.delivery-schedule-modal .content h1.title {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin: 0px;
+  text-align: center;
+}
+
+.delivery-schedule-modal .content .date-input {
+  z-index: 2;
+}
+
+.delivery-schedule-modal .content .time-input {
+  z-index: 1;
+}
+
+.delivery-schedule-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.delivery-schedule-modal .actions .deliver-btn {
+  width: 100%;
+  background-color: var(--color-gray6) !important;
+  color: var(--color-gray7);
+  margin-top: 12px;
+}
+
+.delivery-schedule-modal .actions .save-btn {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+/* end */
+
+/* delivery address modal */
+.delivery-address-modal {
+  width: 676px;
+}
+
+.delivery-address-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 600px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.delivery-address-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+}
+
+.delivery-address-modal .content h1.title {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin: 0px;
+  text-align: center;
+}
+
+.delivery-address-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.delivery-address-modal .list {
+  margin-top: 26px;
+}
+
+.delivery-address-modal .list .add-btn {
+  background-color: white !important;
+  font-size: 18px;
+  font-family: Yellix-SemiBold, serif;
+  color: var(--color-cyan2);
+  margin-bottom: 20px;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.delivery-address-modal .actions .save-btn {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+/* end */
+
+/* add address modal */
+.add-address-modal {
+  width: 676px;
+}
+
+.add-address-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 560px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.add-address-modal .content {
+  background-color: white;
+  padding: 26px 26px;
+}
+
+.add-address-modal .content h1.title {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin: 0px;
+  text-align: center;
+}
+
+.add-address-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.add-address-modal .list {
+  margin-top: 26px;
+}
+
+.add-address-modal .list .add-btn {
+  background-color: white !important;
+  font-size: 18px;
+  font-family: Yellix-SemiBold, serif;
+  color: var(--color-cyan2);
+  margin-bottom: 20px;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.add-address-modal .actions .save-btn {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+
+.add-address-modal .form .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0px;
+}
+
+.add-address-modal .form div.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  font-family: Yellix-SemiBold, serif;
+  color: var(--color-text);
+  margin-right: 16px;
+}
+
+.add-address-modal .form .row div.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+.add-address-modal .form .row div.input-wrapper .text-dropdown {
+  width: 100%;
+  height: 48px;
+}
+
+.add-address-modal .form .row div.input-wrapper .text-dropdown .text-drop-btn {
+  height: 48px;
+}
+
+.add-address-modal .form .find-btn {
+  font-size: 16px;
+  font-family: Yellix-SemiBold, serif;
+  color: var(--color-cyan2);
+  margin-bottom: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* end */
+
+/* pickup time modal */
+.pickup-time-modal {
+  width: 676px;
+}
+
+.pickup-time-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 600px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.pickup-time-modal .content {
+  background-color: white;
+  padding: 26px 36px;
+}
+
+.pickup-time-modal .content h1.title {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin: 0px;
+  text-align: center;
+}
+
+.pickup-time-modal .content .date-input {
+  z-index: 2;
+}
+
+.pickup-time-modal .content .time-input {
+  z-index: 1;
+}
+
+.pickup-time-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.pickup-time-modal .actions .deliver-btn {
+  width: 100%;
+  background-color: var(--color-gray6) !important;
+  color: var(--color-gray7);
+  margin-top: 12px;
+}
+
+.pickup-time-modal .actions .save-btn {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+/* end */
+
+/* add card modal */
+.add-card-modal {
+  width: 676px;
+}
+
+.add-card-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 560px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.add-card-modal .card-bg {
+  width: 335px;
+  height: 170px;
+  padding: 32px 20px;
+  background-image: url('../../assets/svgs/modals/card_bg.svg');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+.add-card-modal .card-bg h3 {
+  font-size: 12px;
+  font-family: Yellix-SemiBold, serif;
+  color: white;
+  margin: 0;
+}
+
+.add-card-modal .card-bg h1 {
+  font-size: 18px;
+  font-family: Yellix-SemiBold, serif;
+  color: white;
+  margin: 0;
+}
+
+.add-card-modal .card-bg .cvv_expiry {
+  font-size: 12px;
+  font-family: Yellix-SemiBold, serif;
+  color: white;
+  margin: 0;
+}
+
+.add-card-modal .content {
+  background-color: white;
+  padding: 26px 26px;
+}
+
+.add-card-modal .content h1.title {
+  font-size: 32px;
+  font-family: Yellix-Bold, serif;
+  color: var(--color-text);
+  margin: 0px;
+  text-align: center;
+}
+
+.add-card-modal .content img.close-btn {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.add-card-modal .actions .save-btn {
+  width: 100%;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+
+.add-card-modal .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0px;
+}
+
+/* end */
+
+/* address map modal */
+.address-map-modal {
+  width: 876px;
+}
+
+.address-map-modal .MuiDialog-paper {
+  border-radius: 16px;
+  width: 800px;
+  max-width: calc(100vw - 32px) !important;
+}
+
+.address-map-modal .content {
+  background-color: white;
+  padding: 0px;
+}
+
+.address-map-modal .map-view {
+  width: 100%;
+  height: 400px;
+  max-height: calc(100vh - 100px) !important;
+}
+
+.address-map-modal .search-bar {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.address-map-modal .search-bar button {
+}
+
+.address-map-modal .search-view p {
+  font-size: 10px;
+  font-family: Yellix-SemiBold;
+  color: var(--color-gray5);
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.address-map-modal .search-view h4 {
+  font-size: 14px;
+  font-family: Yellix-SemiBold;
+  color: var(--color-text);
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.address-map-modal .save-btn {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--color-cyan2) !important;
+  color: white;
+}
+/* end*/
